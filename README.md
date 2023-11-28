@@ -21,3 +21,16 @@ Follow these steps to install Oh-My-Posh:
     ```
 
 Enjoy the Manjaro-inspired aesthetic in your PowerShell terminal!
+
+## How to get History Suggestions in Powershell
+Run terminal as admin
+  ```powershell
+Install-Module PowerShellGet -Force
+  ```
+Log out and start terminal as admin
+ ```powershell
+Update-Module PowerShellGet -Force
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Set-PSReadLineOption -PredictionSource History
+  ```
+
