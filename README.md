@@ -20,6 +20,8 @@ Follow these steps to install Oh-My-Posh:
     oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/Sebastian-Zok/my-oh-my-posh-theme/main/.my-oh-my-posh-theme.omp.json' | Invoke-Expression
     ```
 
+4. Install [Nerd-Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode) and set it as the default Terminal font 
+
 Enjoy the Manjaro-inspired aesthetic in your PowerShell terminal!
 
 ## How to get History Suggestions in Powershell
